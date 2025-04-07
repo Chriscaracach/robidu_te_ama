@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import "./App.css";
+import { Analytics } from "@vercel/analytics/next";
 
 function App() {
   const heroRef = useRef<HTMLElement>(null);
@@ -99,6 +100,7 @@ function App() {
           </a>
         </div>
       </section>
+      <Analytics />
     </div>
   );
 }
