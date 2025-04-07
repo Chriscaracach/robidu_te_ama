@@ -10,7 +10,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
   background-color: rgba(22, 33, 62, 0.7);
   background-image: url("./assets/back-1.jpeg");
   background-size: cover;
@@ -48,13 +47,24 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
   background-color: black;
 }
 
 .neo-input-container {
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.neo-input-form {
+  width: 100%;
   max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 .neo-input {
@@ -79,8 +89,24 @@
   color: #666;
 }
 
-.content {
-  padding: 2rem;
+.neo-button {
+  width: 90%;
+  padding: 1rem;
+  font-size: 1.2rem;
+  border: 3px solid #000;
+  background: #fff;
+  box-shadow: 8px 8px 0 #000;
+  transition: all 0.2s ease;
+
+  margin-top: ;
+}
+
+.neo-button:hover {
+  background: #e31b6d;
+  color: white;
+  transform: translate(-4px, -4px);
+  box-shadow: 12px 12px 2px #000;
+  cursor: pointer;
 }
 
 h1 {
@@ -164,12 +190,6 @@ p {
 
   p {
     font-size: 1.2rem;
-  }
-
-  .hero-section,
-  .about-section,
-  .loveyou-section {
-    padding: 1rem;
   }
 
   .hero-section {
