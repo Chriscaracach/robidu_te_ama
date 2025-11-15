@@ -35,21 +35,21 @@ function App() {
       <section ref={heroRef} className="hero-section">
         <div className="neo-input-container">
           <form
-            action="https://formsubmit.co/robiduvalentin@gmail.com"
+            action="https://formsubmit.co/christiancaracach@gmail.com"
             method="POST"
             className="neo-input-form"
           >
             <input
               type="text"
-              name="necesidad"
+              name="quien-es"
               className="neo-input"
-              placeholder="Que necesitas?"
+              placeholder="Quien sos?"
             />
             <input
               type="text"
-              name="quien"
+              name="que-lo-conmueve"
               className="neo-input"
-              placeholder="Quien sos?"
+              placeholder="Qué te conmueve?"
             />
             <button type="submit" className="neo-button">
               <span className="neo-button-text">Enviar</span>
